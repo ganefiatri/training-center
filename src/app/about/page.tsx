@@ -1,5 +1,8 @@
 import {Footer}  from "@/sections/Footer";
 import {Header}  from "@/sections/Header";
+import pic1 from "@/assets/pic1.jpeg";
+import pic2 from "@/assets/pic2.jpeg";
+import Image from "next/image";
 
 
 export default function About(){
@@ -12,10 +15,12 @@ export default function About(){
                         <div
                             className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
                             <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
-                                <img className=" rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1717741205.png" alt="about Us image" />
+                                <Image src={pic1} alt="pic 1" className="sm:ml-0 ml-auto rounded-xl object-cover"/>
                             </div>
-                            <img className="sm:ml-0 ml-auto rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1717741215.png"
-                                alt="about Us image" />
+                            <Image src={pic2} alt="pic 2" className="sm:ml-0 ml-auto rounded-xl object-cover"/>
+
+                            {/* <img className="sm:ml-0 ml-auto rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1717741215.png"
+                                alt="about Us image" /> */}
                         </div>
                         <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
                             <div className="w-full flex-col justify-center items-start gap-8 flex">

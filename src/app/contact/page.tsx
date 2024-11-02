@@ -41,8 +41,8 @@ export default function Contact(){
                                         <div className="ml-4 mb-4">
                                             <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Alamat Kami
                                             </h3>
-                                            <p className="text-gray-600 dark:text-slate-400">1230 Maecenas Street Donec Road</p>
-                                            <p className="text-gray-600 dark:text-slate-400">New York, EEUU</p>
+                                            <p className="text-gray-600 dark:text-slate-400">Jl Margonda</p>
+                                            <p className="text-gray-600 dark:text-slate-400">Jabodetabek</p>
                                         </div>
                                     </li>
                                     <li className="flex">
@@ -60,8 +60,8 @@ export default function Contact(){
                                         <div className="ml-4 mb-4">
                                             <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Kontak
                                             </h3>
-                                            <p className="text-gray-600 dark:text-slate-400">Mobile: +1 (123) 456-7890</p>
-                                            <p className="text-gray-600 dark:text-slate-400">Mail: tailnext@gmail.com</p>
+                                            <p className="text-gray-600 dark:text-slate-400">HP: +62 (61) 456-789</p>
+                                            <p className="text-gray-600 dark:text-slate-400">Mail: trainingcenter@gmail.com</p>
                                         </div>
                                     </li>
                                     <li className="flex">
@@ -75,8 +75,8 @@ export default function Contact(){
                                         </div>
                                         <div className="ml-4 mb-4">
                                             <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Jam kerja</h3>
-                                            <p className="text-gray-600 dark:text-slate-400">Monday - Friday: 08:00 - 17:00</p>
-                                            <p className="text-gray-600 dark:text-slate-400">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                                            <p className="text-gray-600 dark:text-slate-400">Senin - Jumat: 08:00 - 17:00</p>
+                                            <p className="text-gray-600 dark:text-slate-400">Sabtu &amp; Minggu: 08:00 - 12:00</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -87,18 +87,18 @@ export default function Contact(){
                                     <div className="mb-6">
                                         <div className="mx-0 mb-1 sm:mb-4">
                                             <div className="mx-0 mb-1 sm:mb-4">
-                                                <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autoComplete="given-name" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name"/>
+                                                <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autoComplete="given-name" placeholder="Nama Anda" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name"/>
                                             </div>
                                             <div className="mx-0 mb-1 sm:mb-4">
-                                                <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autoComplete="email" placeholder="Your email address" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email"/>
+                                                <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autoComplete="email" placeholder="Email Anda" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email"/>
                                             </div>
                                         </div>
                                         <div className="mx-0 mb-1 sm:mb-4">
-                                            <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols={30} rows={5} placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                                            <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols={30} rows={5} placeholder="Tulis Pertanyaan Anda..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
                                         </div>
                                     </div>
                                     <div className="text-center">
-                                        <button type="submit" className="w-full btn-primary text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
+                                        <button type="submit" className="w-full btn-primary text-white px-6 py-3 font-xl rounded-md sm:mb-0">Kirim Pesan</button>
                                     </div>
                                 </form>
                             </div>
